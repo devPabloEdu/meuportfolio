@@ -11,16 +11,21 @@ $laranjaClaro: #FF7A48;
     margin: 0;
     padding: 20px;
     background-color: rgb(250, 249, 249);
+    box-shadow: rgba(0, 0, 0, 0.048) 2px 5px 15px;
         a{
             margin-right: 20px;
             text-decoration: none;
             font-size: 16px;
             font-family: $poppins;
-            color: rgb(77, 76, 76);
-            font-weight: 400;
+            color: rgb(51, 51, 51);
+            font-weight: 500;
         }
         a:hover{
-            color: $laranjaEscuro;
+            color: rgb(110, 110, 110);
             transition: ease-in 0.2s;
         }
+}
+.NavButton.active{
+    color: #E3371E;
+    font-weight: 700;
 }
